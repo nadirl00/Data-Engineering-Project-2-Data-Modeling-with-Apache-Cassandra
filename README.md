@@ -8,9 +8,9 @@ This project uses python to read the contents of the csv files and then stores t
 -------------
 The project contains two files:
 
-event_datafile_new.csv: This file contains the data that must extracted and analyzed.
+**event_datafile_new.csv:** This file contains the data that must extracted and analyzed.
 
-Project_1B_Project_Template.ipynb:
+**Project_1B_Project_Template.ipynb:**
 This file contains the entire code.
 The data is read using a csv reader object and inserted directly into the Cassandra tables. They are designed by first constructing queries based on the specific questions that the analytics team wishes to answer. We then read the entire csv file and store the relevant data in the table.
 We then run each queries to answer the desired questions and observe a limited number of rows resulting from our queries.
